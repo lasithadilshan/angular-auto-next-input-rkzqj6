@@ -1,0 +1,2 @@
+<hello name="{{ name }}"></hello>
+<input type="number" class="digit mx-10" min="0" (keydown)="moveToNext($event)" *ngFor="let control of code.controls" [formControl]="control">
